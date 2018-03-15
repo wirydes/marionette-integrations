@@ -1,5 +1,4 @@
-import 'bootstrap';
-import './scss/app.scss';
+
 import Marionette from 'backbone.marionette';
 import ItemView from './ItemView';
 
