@@ -8,8 +8,8 @@
     "url": ""
   },
   "scripts": {
-    "start": "webpack-dev-server --open",
-    "prebuild": "rm -rf ./public/",
+    "start": "webpack-dev-server --open --watch",
+    "prebuild": "",
     "build": "npm run lint && webpack -p",
     "lint": "eslint app",
     "test-ci": "mocha-webpack",
