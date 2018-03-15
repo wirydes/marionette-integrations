@@ -1,4 +1,4 @@
-
+import './scss/itemViewStyles.scss';
 import Marionette from 'backbone.marionette';
 import template from '../templates/item.jst';
 
